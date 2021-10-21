@@ -35,12 +35,10 @@ figure.header:hover figcaption {
 }
 
 main {
-  height: 1000px;
   background: white;
   padding-top: 50px;
   position: relative;
   top: -300px;
-  margin-bottom: 100px;
 }
 
 .col-md-auto {
@@ -67,18 +65,9 @@ main {
   margin-left: 5%;
 }
 
-.card img {
-  display: flex;
-  flex-direction: row;
-  float: left;
-  margin: 0 50px 10px 0;
-  top: 0;
-  left: initial;
-}
-
 #rodape {
   background: black;
-  margin-top: 150px;
+  margin-top: 10px;
   padding: 10px 50px;
 }
 
