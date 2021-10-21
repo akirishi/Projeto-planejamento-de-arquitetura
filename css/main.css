@@ -40,3 +40,11 @@ main {
   position: relative;
   top: -300px;
 }
+
+.col-md-auto img {
+  float: left;
+  margin: 0 50px 10px 0;
+  position: relative;
+  top: 0;
+  left: initial;
+}
