@@ -41,6 +41,15 @@ main {
   top: -300px;
 }
 
+#explicacao {
+  margin: 10px 0 10px 6.3%;
+  border: 2px solid black;
+}
+
+#explicacao img {
+  margin-left: 25%;
+}
+
 .col-md-auto {
   border: 2px solid black;
   margin: 5px 0;
