@@ -1,0 +1,71 @@
+@media (min-width: 1440px) {
+  figure.header h3 {
+    top: 35%
+  }
+}
+
+@media (max-width: 1024px) {
+  figure.header h3 {
+    top: 18%
+  }
+}
+@media (max-width: 768px) {
+  main {
+    position: absolute;
+    top: 200px;
+  }
+  body {
+    max-width: 768px;
+  }
+  figure.header h3 {
+    top: 15%;
+  }
+}
+
+@media (max-width: 375px) {
+  #explicacao {
+    margin: 10px 0;
+    width: 375px;
+  }
+  #explicacao h2 {
+    display: none;
+  }
+  #explicacao img {
+    width: 100%;
+    margin: 0;
+  }
+  .col-md-auto {
+    width: 375px;
+  }
+  .col-md-auto img {
+    width: 100%;
+    margin: 0;
+  }
+  .col-md-auto p{
+    display: block;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    display: block;
+  }
+  #explicacao {
+    margin: 10px 0;
+    width: 320px;
+  }
+  #explicacao h2 {
+    display: none;
+  }
+  #explicacao img {
+    width: 100%;
+    margin: 0;
+  }
+  .col-md-auto {
+    width: 320px;
+  }
+  .col-md-auto img {
+    width: 100%;
+    margin: 0;
+  }
+}

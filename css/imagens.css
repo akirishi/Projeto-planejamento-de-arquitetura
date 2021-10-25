@@ -5,7 +5,7 @@
 .container-fluid img {
   border: 1px solid black;
   margin: 0 0 5px 0;
-  width: 300px;
+  width: 25%;
   transition: 0.2s;
 }
 
@@ -17,4 +17,10 @@
   width: 40%;
   left: 0;
   transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .caixa {
+    height: fit-content;
+  }
 }
