@@ -10,38 +10,47 @@
   }
 }
 @media (max-width: 768px) {
+  #explicacao {
+    margin: 10px 0 10px 24px;
+    width: 768px;
+  }
+  .col-md-auto {
+    width: 768px;
+  }
+  #explicacao img {
+    width: 100%;
+    margin: 0;
+  }
   main {
+    width: 768px;
     position: absolute;
     top: 200px;
   }
-  body {
-    max-width: 768px;
+  figure.header figcaption {
+    position: relative;
+    top: -432px;
+    height: 200px;
   }
   figure.header h3 {
-    top: 15%;
+    top: 28%;
+  }
+  #rodape {
+    display: none;
   }
 }
 
 @media (max-width: 425px) {
   #explicacao {
-    margin: 10px 0;
     width: 425px;
   }
   .col-md-auto {
     width: 425px;
-  }
-  #explicacao img {
-    width: 100%;
-    margin: 0;
   }
   .col-md-auto img {
     width: 100%;
     margin: 0;
   }
   figure.header figcaption {
-    display: none;
-  }
-  #rodape {
     display: none;
   }
 }
