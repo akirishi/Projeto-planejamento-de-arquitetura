@@ -12,7 +12,7 @@ body {
 figure.header figcaption {
   opacity: 0;
   position: absolute;
-  top: 0px;
+  top: 55px;
   background-color: rgba(0, 0, 0, .4);
   color: #ffffff;
   width: 100%;
@@ -24,7 +24,7 @@ figure.header figcaption {
 
 figure.header h3 {
   position: absolute;
-  top: 50%
+  top: 20%
 }
 
 figure.header:hover figcaption {
@@ -74,12 +74,14 @@ main {
   width: 100%;
 }
 #rodape {
+  position: relative;
   background: black;
-  margin-top: 10px;
+  margin: 10px 0 0 0;
   padding: 10px 50px;
+  width: 100%;
 }
 
 .devs {
-  color: white;
+  color: lightgray;
   font-size: 20px;
 }
