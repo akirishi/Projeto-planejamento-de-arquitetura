@@ -5,8 +5,32 @@
 }
 
 @media (max-width: 1024px) {
+  #explicacao {
+    margin: 10px 0 10px 32px;
+    width: 1024px;
+  }
+  .col-md-auto {
+    width: 1024px;
+  }
+  #explicacao img {
+    width: 100%;
+    margin: 0;
+  }
+  main {
+    width: 1024px;
+    position: absolute;
+    top: 200px;
+  }
   figure.header h3 {
     top: 18%
+  }
+  figure.header figcaption {
+    position: relative;
+    top: -550px;
+    height: 500px;
+  }
+  figure.header h3 {
+    top: 28%;
   }
 }
 @media (max-width: 768px) {
@@ -17,14 +41,9 @@
   .col-md-auto {
     width: 768px;
   }
-  #explicacao img {
-    width: 100%;
-    margin: 0;
-  }
   main {
     width: 768px;
     position: absolute;
-    top: 200px;
   }
   figure.header figcaption {
     position: relative;
@@ -41,6 +60,7 @@
 
 @media (max-width: 425px) {
   #explicacao {
+    margin: 10px 0;
     width: 425px;
   }
   .col-md-auto {
