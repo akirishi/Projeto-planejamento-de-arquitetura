@@ -70,7 +70,9 @@ main {
   width: 90%;
   margin-left: 5%;
 }
-
+.col img {
+  width: 100%;
+}
 #rodape {
   background: black;
   margin-top: 10px;

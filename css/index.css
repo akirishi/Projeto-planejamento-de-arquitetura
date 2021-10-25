@@ -22,50 +22,44 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   #explicacao {
     margin: 10px 0;
-    width: 375px;
+    width: 425px;
   }
-  #explicacao h2 {
-    display: none;
+  .col-md-auto {
+    width: 425px;
   }
   #explicacao img {
     width: 100%;
     margin: 0;
   }
-  .col-md-auto {
-    width: 375px;
-  }
   .col-md-auto img {
     width: 100%;
     margin: 0;
   }
-  .col-md-auto p{
-    display: block;
+  figure.header figcaption {
+    display: none;
+  }
+  #rodape {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  #explicacao {
+    width: 375px;
+  }
+  .col-md-auto {
+    width: 375px;
   }
 }
 
 @media (max-width: 320px) {
-  .navbar {
-    display: block;
-  }
   #explicacao {
-    margin: 10px 0;
     width: 320px;
-  }
-  #explicacao h2 {
-    display: none;
-  }
-  #explicacao img {
-    width: 100%;
-    margin: 0;
   }
   .col-md-auto {
     width: 320px;
-  }
-  .col-md-auto img {
-    width: 100%;
-    margin: 0;
   }
 }
